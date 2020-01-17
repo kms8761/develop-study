@@ -21,8 +21,9 @@ sequelize에서 table =model 이다 workbench에서 안하고 sequelize 패키�
 
 ## sequelize mysql과 비교
 
+# mysql
 INSERT INTO nodejs.users (name, age, married, comment) VALUES ('zero',24,0,'자기소개1');         
-
+# orm
 const { User } = require('../models')
 
 User.create({
