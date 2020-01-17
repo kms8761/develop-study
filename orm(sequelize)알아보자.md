@@ -40,14 +40,14 @@ User.create({
 
 
 
-# 사용예시 
+#### 사용예시 
 
 module.exports = sequelize, datatypes =>
 return sequelize.defie('comment')
 
 sequelize.define comment라는 테이블이 만들어진다 
 
-index가 가장중요한데 index.js에서 다시 comment.js를 불러준다
+model에서의 index.js가 가장중요한데 index.js에서 다시 comment.js를 불러준다
 
 select*from nodejs.users 를 모두 조회 user.findall로 조회한다.
 
